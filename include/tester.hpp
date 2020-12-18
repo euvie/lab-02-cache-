@@ -1,7 +1,5 @@
 // Copyright 2020 Your Name <your_email>
 
-// Copyright 2018 Your Name <your_email>
-
 #ifndef INCLUDE_TESTER_HPP_
 #define INCLUDE_TESTER_HPP_
 

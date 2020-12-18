@@ -1,9 +1,6 @@
 // Copyright 2020 Your Name <your_email>
 
 #include <tester.hpp>
-// Copyright 2018 Your Name <your_email>
-
-#include <tester.hpp>
 #include <iostream>
 
 Tester::Tester(int L1, int L2):
@@ -20,23 +17,7 @@ std::vector<int> Tester::define_series() {
   }
   series.push_back(end);
   return series;
-
-
-  //double begin = 0.5 * Lmin;
-  //double end = Lmax * 1.5;
-  //double element = begin;
-  //double val = 2; //K
-  //int x = round(log2(Lmin));
-
-  //while (element < end){
-    //series.push_back(element);
-   // element = pow(val, x);
-    //++x;
-  //}
-  //series.push_back(end);
-  //return series;
 }
-
 
 int* Tester::get_random_array(int size) {
   int* array = new int [size];
